@@ -1,6 +1,6 @@
 # Titanic: Machine Learning from Disaster
 
-My submission to the "Titanic: Machine Learning from Disaster" Kaggle competition. Two solutions in the form of Jupyter Notebooks can be found in this repository; one focuses on the more traditional machine learning algorithms (decision tree, forest, logistic regression, and so on) while the other (in development) focuses on neural networks with PyTorch.
+My submission to the "Titanic: Machine Learning from Disaster" Kaggle competition. Two solutions in the form of Jupyter Notebooks can be found in this repository; one focuses on the more traditional machine learning algorithms (decision tree, forest, logistic regression, and so on) while the other focuses on using neural networks with PyTorch.
 
 As this is my first submission to Kaggle, the main goals are to learn more about data analysis and machine learning algorithms, as well as, get some practice with the most relevant Python libraries related to datascience.
 
@@ -34,8 +34,11 @@ Step-by-step solution focusing on traditional machine learning algorithms and ha
 
 Achieves a public test set score of 80.861% (top 8%).
 
-### Neural networks with PyTorch
+### Neural network with PyTorch
 
 Kernel@GitHub: [pytorch/surviving-the-titanic.ipynb](https://github.com/davidtvs/kaggle-titanic/blob/master/pytorch/surviving-the-titanic.ipynb)  
+Kernel@GitHub: [TitanicNet with PyTorch](https://www.kaggle.com/dr1t10/titanicnet-with-pytorch?scriptVersionId=5419927)
 
-In development.
+Focuses on implementing functionalities similar to scikit-learn to facilitate model building, training, cross-validation, and grid search.
+
+Achieves a public test set score of 80.861% (top 8%).
